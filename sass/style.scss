@@ -180,6 +180,8 @@ body {
 //eco section
 
 .eco {
+	background-color: $bg-green;
+
 	&__box {
 		display: flex;
 		flex-direction: column;
@@ -188,15 +190,17 @@ body {
 
 	&__img {
 		width: 100%;
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
 
 	&__title {
-		margin-bottom: 0.5em;
+		margin-bottom: 0.8em;
+		color: $light-white;
 	}
 
 	&__text {
 		font-size: 1.4rem;
+		color: $light-white;
 	}
 }
 
@@ -542,6 +546,7 @@ body {
 		&__box {
 			flex-direction: row;
 			justify-content: space-between;
+			align-items: center;
 
 			&-text {
 				width: 55%;
@@ -552,7 +557,7 @@ body {
 			}
 
 			&-img {
-				width: 40%;
+				width: 42%;
 
 				&--right {
 					order: 1;
@@ -685,7 +690,7 @@ body {
 		right: 50px;
 	}
 	.header {
-		background-image: $blue-gradient, url('../img/headerWetland.png');
+		background-image: $blue-gradient, url('../img/wet1.png');
 
 		&__heading {
 			font-size: 10rem;
@@ -700,7 +705,7 @@ body {
 
 	.eco {
 		&__box {
-			margin: 5em 0;
+			margin: em 0;
 
 			&-text {
 				display: flex;

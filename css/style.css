@@ -8,7 +8,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: #fff;
+  background-color: rgb(105, 82, 53);
 }
 .white-block-left {
   bottom: 0;
@@ -62,7 +62,7 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #1755e7;
+  color: #eee;
   letter-spacing: 2px;
 }
 
@@ -288,6 +288,9 @@ body {
   background-color: #eee;
 }
 
+.eco {
+  background-color: rgb(105, 82, 53);
+}
 .eco__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,13 +303,15 @@ body {
 }
 .eco__img {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .eco__title {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
+  color: #eee;
 }
 .eco__text {
   font-size: 1.4rem;
+  color: #eee;
 }
 
 .hero-img {
@@ -653,6 +658,9 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .eco__box-text {
     width: 55%;
@@ -661,7 +669,7 @@ body {
     text-align: right;
   }
   .eco__box-img {
-    width: 40%;
+    width: 42%;
   }
   .eco__box-img--right {
     -webkit-box-ordinal-group: 2;
@@ -782,7 +790,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/headerWetland.png");
+    background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/wet1.png");
   }
   .header__heading {
     font-size: 10rem;
@@ -791,7 +799,7 @@ body {
     font-size: 4.8rem;
   }
   .eco__box {
-    margin: 5em 0;
+    margin: em 0;
   }
   .eco__box-text {
     display: -webkit-box;
