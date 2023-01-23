@@ -101,7 +101,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -119,7 +119,7 @@ body {
   top: 0;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(45deg, rgb(20, 105, 241), rgb(42, 10, 184));
+  background-image: linear-gradient(45deg, rgb(127, 140, 130), rgb(73, 55, 22));
   z-index: 100;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -256,19 +256,21 @@ body {
   padding: 2em;
   height: 75vh;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/tropichotel_small.jpg");
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/headerWetland.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-attachment: scroll;
 }
 .header__heading {
-  font-family: "Dancing Script", cursive;
+  font-family: "Amaranth", sans-serif;
   font-size: 4.6rem;
   font-weight: 300;
+  text-align: center;
 }
 .header__text {
   font-size: 1.4rem;
+  text-align: center;
 }
 .header__btn {
   background: #fff;
@@ -286,7 +288,7 @@ body {
   background-color: #eee;
 }
 
-.dreams__box {
+.eco__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -296,27 +298,28 @@ body {
           flex-direction: column;
   margin: 2em 0;
 }
-.dreams__img {
+.eco__img {
   width: 100%;
   margin-bottom: 1em;
 }
-.dreams__title {
+.eco__title {
   margin-bottom: 0.5em;
 }
-.dreams__text {
+.eco__text {
   font-size: 1.4rem;
 }
 
 .hero-img {
   position: relative;
   padding: 10em 2em;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/PF_big.jpg");
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/PF_big.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
   color: #fff;
   overflow: hidden;
+  height: 100vh;
 }
 .hero-img__title {
   font-family: "Dancing Script", cursive;
@@ -360,7 +363,7 @@ body {
   background-image: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75)), url(../img/island1.jpg);
 }
 .islands__card-img--second {
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(../img/island2.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/island2.jpg);
 }
 .islands__card-img--third {
   background-image: linear-gradient(45deg, rgba(190, 10, 214, 0.75), rgba(68, 0, 255, 0.75)), url(../img/island3.jpg);
@@ -395,7 +398,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 8px;
-  background-image: linear-gradient(45deg, rgb(20, 105, 241), rgb(42, 10, 184));
+  background-image: linear-gradient(45deg, rgb(127, 140, 130), rgb(73, 55, 22));
   opacity: 0;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -445,7 +448,7 @@ body {
 
 .offers {
   position: relative;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/hp4small.jpg");
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/hp4small.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -642,7 +645,7 @@ body {
 }
 
 @media (min-width: 576px) {
-  .dreams__box {
+  .eco__box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -651,21 +654,21 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .dreams__box-text {
+  .eco__box-text {
     width: 55%;
   }
-  .dreams__box-text--right {
+  .eco__box-text--right {
     text-align: right;
   }
-  .dreams__box-img {
+  .eco__box-img {
     width: 40%;
   }
-  .dreams__box-img--right {
+  .eco__box-img--right {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
-  .dreams__img {
+  .eco__img {
     margin-bottom: 0;
     max-height: 300px;
   }
@@ -715,7 +718,7 @@ body {
   .header__btn {
     font-size: 1.6rem;
   }
-  .dreams__text {
+  .eco__text {
     font-size: 1.8rem;
   }
   .hero-img {
@@ -779,7 +782,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(../img/tropichotel.jpg);
+    background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/headerWetland.png");
   }
   .header__heading {
     font-size: 10rem;
@@ -787,10 +790,10 @@ body {
   .nav__item {
     font-size: 4.8rem;
   }
-  .dreams__box {
+  .eco__box {
     margin: 5em 0;
   }
-  .dreams__box-text {
+  .eco__box-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -803,10 +806,10 @@ body {
             justify-content: flex-end;
     margin-bottom: 2.5em;
   }
-  .dreams__title {
+  .eco__title {
     font-size: 3.6rem;
   }
-  .dreams__text {
+  .eco__text {
     font-size: 2.2rem;
   }
   .hero-img {
@@ -819,7 +822,7 @@ body {
     width: 60%;
   }
   .offers {
-    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url(/img/hp4.jpg);
+    background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(/img/hp4.jpg);
   }
   .offers__option-img {
     -o-object-fit: cover;

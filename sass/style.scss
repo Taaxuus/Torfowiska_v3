@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Overpass', sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -30,7 +30,7 @@ body {
 	top: 0;
 	height: 100vh;
 	width: 100%;
-	background-image: $blue-gradient-solid;
+	background-image: $green-gradient-solid;
 	z-index: 100;
 	transform: translateX(100%);
 	transition: 0.5s cubic-bezier(0.066, 0.05, 0.36, 1);
@@ -145,16 +145,18 @@ body {
 	padding: 2em;
 	height: 75vh;
 	color: $pure-white;
-	@include heroImages('../img/tropichotel_small.jpg');
+	@include heroImages('../img/headerWetland.png');
 	background-attachment: scroll;
 
 	&__heading {
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Amaranth', sans-serif;
 		font-size: 4.6rem;
 		font-weight: 300;
+		text-align: center;
 	}
 	&__text {
 		font-size: 1.4rem;
+		text-align: center;
 	}
 	&__btn {
 		background: $pure-white;
@@ -175,9 +177,9 @@ body {
 }
 
 //MAIN
-//Dreams section
+//eco section
 
-.dreams {
+.eco {
 	&__box {
 		display: flex;
 		flex-direction: column;
@@ -207,6 +209,7 @@ body {
 	text-align: center;
 	color: $pure-white;
 	overflow: hidden;
+	height: 100vh;
 
 	&__title {
 		font-family: 'Dancing Script', cursive;
@@ -284,7 +287,7 @@ body {
 			flex-direction: column;
 			justify-content: center;
 			border-radius: 8px;
-			background-image: $blue-gradient-solid;
+			background-image: $green-gradient-solid;
 			opacity: 0;
 			transform: rotateY(180deg);
 			transition: transform 1s, opacity 1s;
@@ -535,7 +538,7 @@ body {
 // MEDIA
 // =========================
 @media (min-width: 576px) {
-	.dreams {
+	.eco {
 		&__box {
 			flex-direction: row;
 			justify-content: space-between;
@@ -610,7 +613,7 @@ body {
 		}
 	}
 
-	.dreams {
+	.eco {
 		&__text {
 			font-size: 1.8rem;
 		}
@@ -682,7 +685,7 @@ body {
 		right: 50px;
 	}
 	.header {
-		background-image: $blue-gradient, url(../img/tropichotel.jpg);
+		background-image: $blue-gradient, url('../img/headerWetland.png');
 
 		&__heading {
 			font-size: 10rem;
@@ -695,7 +698,7 @@ body {
 		}
 	}
 
-	.dreams {
+	.eco {
 		&__box {
 			margin: 5em 0;
 
