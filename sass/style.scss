@@ -147,20 +147,23 @@ img {
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
-	height: 75vh;
+	height: 100vh;
 	color: $pure-white;
 	background-image: $blue-gradient, url('../img/first1.png');
 	background-attachment: scroll;
 
 	&__heading {
 		font-family: 'Amaranth', sans-serif;
-		font-size: 4.6rem;
+		font-size: 7.6rem;
 		font-weight: 300;
 		text-align: center;
+		margin-bottom: 2rem;
 	}
 	&__text {
-		font-size: 1.4rem;
+		font-size: 2rem;
 		text-align: center;
+		margin-bottom: 2rem;
+		max-width: 80%;
 	}
 	&__btn {
 		background: $pure-white;

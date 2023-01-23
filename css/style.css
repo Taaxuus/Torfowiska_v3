@@ -67,7 +67,7 @@
 }
 
 .section-padding {
-  padding: 6em 2em;
+  padding: 3em 2em;
 }
 
 @media (min-width: 768px) {
@@ -75,7 +75,7 @@
     font-size: 3.6rem;
   }
   .section-padding {
-    padding: 8em 2em;
+    padding: 5em 2em;
   }
 }
 @media (min-width: 992px) {
@@ -83,7 +83,7 @@
     font-size: 4.8rem;
   }
   .section-padding {
-    padding: 10em 2em;
+    padding: 5em 2em;
   }
 }
 *,
@@ -258,20 +258,23 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding: 2em;
-  height: 75vh;
+  height: 100vh;
   color: #fff;
   background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/first1.png");
   background-attachment: scroll;
 }
 .header__heading {
   font-family: "Amaranth", sans-serif;
-  font-size: 4.6rem;
+  font-size: 7.6rem;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .header__text {
-  font-size: 1.4rem;
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+  max-width: 80%;
 }
 .header__btn {
   background: #fff;
