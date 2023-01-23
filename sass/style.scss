@@ -20,6 +20,10 @@ body {
 	font-size: 1.6rem;
 }
 
+img {
+	border-radius: 10px;
+}
+
 // NAV
 
 .nav {
@@ -145,7 +149,7 @@ body {
 	padding: 2em;
 	height: 75vh;
 	color: $pure-white;
-	@include heroImages('../img/headerWetland.png');
+	background-image: $blue-gradient, url('../img/first1.png');
 	background-attachment: scroll;
 
 	&__heading {
@@ -209,19 +213,19 @@ body {
 .hero-img {
 	position: relative;
 	padding: 10em 2em;
-	@include heroImages('../img/PF_big.jpg');
+	@include heroImages('../img/forest4.png');
 	text-align: center;
 	color: $pure-white;
 	overflow: hidden;
 	height: 100vh;
 
 	&__title {
-		font-family: 'Dancing Script', cursive;
 		font-size: 4.6rem;
 		margin-bottom: 0.5em;
 	}
 
 	&__text {
+		font-size: 2rem;
 		padding: 2em;
 	}
 }
@@ -625,7 +629,7 @@ body {
 	}
 
 	.hero-img {
-		padding: 30rem 2em;
+		padding: 10em 2em;
 
 		&__text {
 			margin: 0 auto;
@@ -690,7 +694,8 @@ body {
 		right: 50px;
 	}
 	.header {
-		background-image: $blue-gradient, url('../img/wet1.png');
+		background-image: $blue-gradient, url('../img/first1.png');
+		background-size: cover;
 
 		&__heading {
 			font-size: 10rem;
@@ -705,7 +710,7 @@ body {
 
 	.eco {
 		&__box {
-			margin: em 0;
+			margin: 2em;
 
 			&-text {
 				display: flex;
@@ -723,6 +728,10 @@ body {
 	}
 
 	.hero-img {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		padding: 40rem 2em;
 
 		&__title {
