@@ -456,11 +456,11 @@ img {
   border-radius: 8px;
   width: 80%;
   border: none;
-  background-color: #00ffaa;
+  background-color: #9b9e9d;
   cursor: pointer;
 }
 .actu__card-info-btn::before {
-  background-color: #0fe29c;
+  background-color: #f3f9f7;
 }
 
 .contact {
