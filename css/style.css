@@ -314,6 +314,11 @@ img {
 .eco__img {
   width: 100%;
   margin-bottom: 2em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.eco__img:hover {
+  scale: 1.05;
 }
 .eco__title {
   margin-bottom: 0.8em;
