@@ -34,7 +34,12 @@ img {
 	top: 0;
 	height: 100vh;
 	width: 100%;
-	background-image: $green-gradient-solid;
+	background: rgba(0, 0, 0, 0.67);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10.7px);
+	-webkit-backdrop-filter: blur(10.7px);
+	border: 1px solid rgba(0, 0, 0, 0.8);
 	z-index: 100;
 	transform: translateX(100%);
 	transition: 0.5s cubic-bezier(0.066, 0.05, 0.36, 1);
@@ -47,7 +52,7 @@ img {
 		position: relative;
 		display: block;
 		margin: 0.5em 0;
-		padding: 0.5em 2em;
+		padding: 0.5em 1em;
 		text-decoration: none;
 		font-size: 2.8rem;
 		color: $pure-white;
@@ -549,6 +554,13 @@ img {
 // MEDIA
 // =========================
 @media (min-width: 576px) {
+	.nav {
+		justify-content: flex-start;
+
+		&--active {
+			transform: translateX(60%);
+		}
+	}
 	.eco {
 		&__box {
 			flex-direction: row;
@@ -608,6 +620,13 @@ img {
 }
 
 @media (min-width: 768px) {
+	.nav {
+		justify-content: flex-start;
+
+		&--active {
+			transform: translateX(68%);
+		}
+	}
 	.white-block {
 		height: 50px;
 		width: 45%;
@@ -692,6 +711,13 @@ img {
 }
 
 @media (min-width: 992px) {
+	.nav {
+		justify-content: flex-start;
+
+		&--active {
+			transform: translateX(76%);
+		}
+	}
 	.burger-btn {
 		top: 50px;
 		right: 50px;
@@ -707,7 +733,7 @@ img {
 
 	.nav {
 		&__item {
-			font-size: 4.8rem;
+			font-size: 2.8rem;
 		}
 	}
 
@@ -761,6 +787,13 @@ img {
 	}
 }
 @media (min-width: 1100px) {
+	.nav {
+		justify-content: flex-start;
+
+		&--active {
+			transform: translateX(82%);
+		}
+	}
 	.islands {
 		&__card {
 			width: 30%;

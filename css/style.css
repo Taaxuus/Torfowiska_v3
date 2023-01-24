@@ -8,7 +8,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: rgb(105, 82, 53);
+  background-color: rgb(70, 57, 42);
 }
 .white-block-left {
   bottom: 0;
@@ -123,7 +123,13 @@ img {
   top: 0;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(45deg, rgb(127, 140, 130), rgb(73, 55, 22));
+  background: rgba(0, 0, 0, 0.67);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
+  border: 1px solid rgba(0, 0, 0, 0.8);
   z-index: 100;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -138,7 +144,7 @@ img {
   position: relative;
   display: block;
   margin: 0.5em 0;
-  padding: 0.5em 2em;
+  padding: 0.5em 1em;
   text-decoration: none;
   font-size: 2.8rem;
   color: #fff;
@@ -293,7 +299,7 @@ img {
 }
 
 .eco {
-  background-color: rgb(105, 82, 53);
+  background-color: rgb(70, 57, 42);
 }
 .eco__box {
   display: -webkit-box;
@@ -654,6 +660,15 @@ img {
 }
 
 @media (min-width: 576px) {
+  .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav--active {
+    -webkit-transform: translateX(60%);
+            transform: translateX(60%);
+  }
   .eco__box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -717,6 +732,15 @@ img {
   }
 }
 @media (min-width: 768px) {
+  .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav--active {
+    -webkit-transform: translateX(68%);
+            transform: translateX(68%);
+  }
   .white-block {
     height: 50px;
     width: 45%;
@@ -789,6 +813,15 @@ img {
   }
 }
 @media (min-width: 992px) {
+  .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav--active {
+    -webkit-transform: translateX(76%);
+            transform: translateX(76%);
+  }
   .burger-btn {
     top: 50px;
     right: 50px;
@@ -801,7 +834,7 @@ img {
     font-size: 10rem;
   }
   .nav__item {
-    font-size: 4.8rem;
+    font-size: 2.8rem;
   }
   .eco__box {
     margin: 2em;
@@ -860,6 +893,15 @@ img {
   }
 }
 @media (min-width: 1100px) {
+  .nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav--active {
+    -webkit-transform: translateX(82%);
+            transform: translateX(82%);
+  }
   .islands__card {
     width: 30%;
   }
