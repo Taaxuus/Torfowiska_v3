@@ -154,7 +154,7 @@ img {
 	padding: 2em;
 	height: 100vh;
 	color: $pure-white;
-	background-image: $blue-gradient, url('../img/first1.png');
+	background-image: $dark-gradient, url('../img/first1.png');
 	background-attachment: scroll;
 
 	&__heading {
@@ -238,9 +238,10 @@ img {
 	}
 }
 
-//ISLANDS
+//actu
 
-.islands {
+.actu {
+	background-color: $bg-green;
 	&__card {
 		position: relative;
 		margin: 1em 0;
@@ -250,11 +251,11 @@ img {
 		perspective: 1000px;
 
 		&:hover {
-			.islands__card-img {
+			.actu__card-img {
 				transform: rotateY(-180deg);
 				opacity: 0;
 			}
-			.islands__card-info {
+			.actu__card-info {
 				transform: rotateY(0deg);
 				opacity: 1;
 			}
@@ -268,16 +269,15 @@ img {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $light-blue-gradient, url(../img/island1.jpg);
+				background-image: $dark-gradient, url(../img/actu1.png);
 			}
 			&--second {
-				background-image: $blue-gradient, url(../img/island2.jpg);
+				background-image: $dark-gradient, url(../img/actu2.png);
 			}
 			&--third {
-				background-image: $purple-gradient, url(../img/island3.jpg);
+				background-image: $dark-gradient, url(../img/actu3.png);
 			}
 			&-title {
-				font-family: 'Dancing Script', cursive;
 				font-size: 2.8rem;
 			}
 
@@ -311,7 +311,6 @@ img {
 			&-title {
 				@include islandCardStyles;
 				top: 1.2em;
-				font-family: 'Dancing Script', cursive;
 				font-size: 2.8rem;
 			}
 
@@ -661,7 +660,7 @@ img {
 		}
 	}
 
-	.islands {
+	.actu {
 		&__cards {
 			display: flex;
 			justify-content: center;
@@ -723,7 +722,7 @@ img {
 		right: 50px;
 	}
 	.header {
-		background-image: $blue-gradient, url('../img/first1.png');
+		background-image: $dark-gradient, url('../img/first1.png');
 		background-size: cover;
 
 		&__heading {
@@ -773,7 +772,7 @@ img {
 	}
 
 	.offers {
-		background-image: $blue-gradient, url(/img/hp4.jpg);
+		background-image: $dark-gradient, url(/img/hp4.jpg);
 
 		&__option {
 			&-img {
@@ -794,7 +793,7 @@ img {
 			transform: translateX(82%);
 		}
 	}
-	.islands {
+	.actu {
 		&__card {
 			width: 30%;
 		}

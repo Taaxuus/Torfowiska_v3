@@ -345,7 +345,10 @@ img {
   padding: 2em;
 }
 
-.islands__card {
+.actu {
+  background-color: rgb(70, 57, 42);
+}
+.actu__card {
   position: relative;
   margin: 1em 0;
   height: 450px;
@@ -354,17 +357,17 @@ img {
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
-.islands__card:hover .islands__card-img {
+.actu__card:hover .actu__card-img {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
   opacity: 0;
 }
-.islands__card:hover .islands__card-info {
+.actu__card:hover .actu__card-info {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   opacity: 1;
 }
-.islands__card-img {
+.actu__card-img {
   padding: 2em;
   height: 100%;
   border-radius: 8px;
@@ -374,29 +377,28 @@ img {
   transition: transform 1s, opacity 1s;
   transition: transform 1s, opacity 1s, -webkit-transform 1s;
 }
-.islands__card-img--first {
-  background-image: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75)), url(../img/island1.jpg);
+.actu__card-img--first {
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu1.png);
 }
-.islands__card-img--second {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/island2.jpg);
+.actu__card-img--second {
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu2.png);
 }
-.islands__card-img--third {
-  background-image: linear-gradient(45deg, rgba(190, 10, 214, 0.75), rgba(68, 0, 255, 0.75)), url(../img/island3.jpg);
+.actu__card-img--third {
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu3.png);
 }
-.islands__card-img-title {
-  font-family: "Dancing Script", cursive;
+.actu__card-img-title {
   font-size: 2.8rem;
 }
-.islands__card-img-info {
+.actu__card-img-info {
   position: absolute;
   bottom: 30px;
   right: 30px;
   font-size: 1.8rem;
 }
-.islands__card-img-info i {
+.actu__card-img-info i {
   margin-right: 0.7em;
 }
-.islands__card-info {
+.actu__card-info {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -413,7 +415,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 8px;
-  background-image: linear-gradient(45deg, rgb(127, 140, 130), rgb(73, 55, 22));
+  background-image: linear-gradient(45deg, rgb(24, 28, 22), rgb(70, 57, 42));
   opacity: 0;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -422,29 +424,28 @@ img {
   transition: transform 1s, opacity 1s;
   transition: transform 1s, opacity 1s, -webkit-transform 1s;
 }
-.islands__card-info-title {
+.actu__card-info-title {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 1.2em;
-  font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
 }
-.islands__card-info-list {
+.actu__card-info-list {
   margin: 0 auto;
   width: 70%;
   list-style: none;
 }
-.islands__card-info-list-item {
+.actu__card-info-list-item {
   padding: 1em;
   font-size: 1.4rem;
   border-bottom: 1px solid #eee;
 }
-.islands__card-info-list-item:last-child {
+.actu__card-info-list-item:last-child {
   border-bottom: none;
 }
-.islands__card-info-btn {
+.actu__card-info-btn {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -457,7 +458,7 @@ img {
   background-color: #00ffaa;
   cursor: pointer;
 }
-.islands__card-info-btn::before {
+.actu__card-info-btn::before {
   background-color: #0fe29c;
 }
 
@@ -766,7 +767,7 @@ img {
     padding: 2em;
     font-size: 2.2rem;
   }
-  .islands__cards {
+  .actu__cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -776,7 +777,7 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .islands__card {
+  .actu__card {
     margin: 1em;
     width: 45%;
   }
@@ -902,7 +903,7 @@ img {
     -webkit-transform: translateX(82%);
             transform: translateX(82%);
   }
-  .islands__card {
+  .actu__card {
     width: 30%;
   }
 }/*# sourceMappingURL=style.css.map */
