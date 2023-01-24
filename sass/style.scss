@@ -220,7 +220,7 @@ img {
 
 .hero-img {
 	position: relative;
-	padding: 10em 2em;
+	padding: 8em 2em;
 	@include heroImages('../img/forest4.png');
 	text-align: center;
 	color: $pure-white;
@@ -233,8 +233,9 @@ img {
 	}
 
 	&__text {
-		font-size: 2rem;
-		padding: 2em;
+		font-size: 1.5rem;
+		padding: 1em;
+		max-width: 100%;
 	}
 }
 
@@ -758,7 +759,7 @@ img {
 	.hero-img {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		// align-items: center;
 		justify-content: center;
 		padding: 40rem 2em;
 
@@ -767,7 +768,7 @@ img {
 		}
 
 		&__text {
-			width: 60%;
+			width: 80%;
 		}
 	}
 

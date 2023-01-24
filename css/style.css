@@ -326,7 +326,7 @@ img {
 
 .hero-img {
   position: relative;
-  padding: 10em 2em;
+  padding: 8em 2em;
   background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/forest4.png");
   background-size: cover;
   background-position: center;
@@ -341,8 +341,9 @@ img {
   margin-bottom: 0.5em;
 }
 .hero-img__text {
-  font-size: 2rem;
-  padding: 2em;
+  font-size: 1.5rem;
+  padding: 1em;
+  max-width: 100%;
 }
 
 .actu {
@@ -867,9 +868,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -879,7 +877,7 @@ img {
     font-size: 7.2rem;
   }
   .hero-img__text {
-    width: 60%;
+    width: 80%;
   }
   .offers {
     background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(/img/hp4.jpg);
