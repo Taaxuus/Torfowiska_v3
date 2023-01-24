@@ -471,6 +471,9 @@ img {
 .contact .white-block-left {
   background-color: #2e2e2e;
 }
+.contact h2 {
+  color: #2e2e2e;
+}
 .contact__form, .contact__form-top {
   display: -webkit-box;
   display: -ms-flexbox;
