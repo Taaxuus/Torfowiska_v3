@@ -297,7 +297,24 @@ img {
 .header__btn::before {
   background-color: #eee;
 }
-
+.header__logo--box {
+  padding: 0.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header__logo {
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+}
 .eco {
   background-color: rgb(70, 57, 42);
 }

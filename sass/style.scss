@@ -181,6 +181,28 @@ img {
 			background-color: $light-white;
 		}
 	}
+	&__logo--box {
+		padding: 0.5em;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__logo {
+		display: inline-block;
+		height: 2.5em;
+		width: 2.5em;
+		background-color: white;
+		transform: rotate(45deg);
+		cursor: pointer;
+
+		&--1 {
+		}
+		&--2 {
+		}
+		&--3 {
+		}
+	}
 }
 
 //MAIN
