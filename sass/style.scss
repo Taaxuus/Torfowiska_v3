@@ -34,12 +34,7 @@ img {
 	top: 0;
 	height: 100vh;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.67);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(10.7px);
-	-webkit-backdrop-filter: blur(10.7px);
-	border: 1px solid rgba(0, 0, 0, 0.8);
+	@include bgGlass;
 	z-index: 100;
 	transform: translateX(100%);
 	transition: 0.5s cubic-bezier(0.066, 0.05, 0.36, 1);
@@ -460,6 +455,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
 	background-image: $dark-gradient,
 		url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
 	background-size: cover;
@@ -471,10 +467,22 @@ img {
 	}
 
 	&__table {
+		padding: 0.3em;
+		max-width: 100vw;
+		@include bgGlass;
 		th {
 			text-align: center;
 			padding: 0 0.5rem;
 			font-size: 0.8rem;
+			border-bottom: 1px solid $light-white;
+			font-weight: bold;
+		}
+	}
+
+	&__order {
+		font-size: 0.8rem;
+		td {
+			text-align: center;
 			border-bottom: 1px solid $light-white;
 		}
 	}

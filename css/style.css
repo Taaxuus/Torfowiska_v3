@@ -586,10 +586,29 @@ img {
   padding: 1.7em 1em 1em 1em;
   font-size: 3rem;
 }
+.public-orders__table {
+  padding: 0.3em;
+  max-width: 100vw;
+  background: rgba(0, 0, 0, 0.67);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
 .public-orders__table th {
   text-align: center;
   padding: 0 0.5rem;
   font-size: 0.8rem;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+.public-orders__order {
+  font-size: 0.8rem;
+}
+.public-orders__order td {
+  text-align: center;
   border-bottom: 1px solid #eee;
 }
 
