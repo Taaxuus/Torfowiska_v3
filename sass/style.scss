@@ -455,24 +455,27 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	background-image: $dark-gradient,
 		url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
 	background-size: cover;
-
 	color: $light-white;
+
+	.wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
 	&__title {
+		text-align: center;
 		padding: 1.7em 1em 1em 1em;
 		font-size: 3rem;
 	}
 
 	&__table {
 		padding: 0.3em;
-		max-width: 100vw;
 		@include bgGlass;
 		th {
 			text-align: center;
-			padding: 0 0.5rem;
 			font-size: 0.8rem;
 			border-bottom: 1px solid $light-white;
 			font-weight: bold;
@@ -525,6 +528,24 @@ img {
 		&__img {
 			margin-bottom: 0;
 			max-height: 300px;
+		}
+	}
+
+	.public-orders {
+		&__title {
+			padding: 1.7em 1em 1em 1em;
+			font-size: 4rem;
+		}
+
+		&__table {
+			th {
+				padding: 0.2rem;
+				font-size: 1.4rem;
+			}
+		}
+
+		&__order {
+			font-size: 1.2rem;
 		}
 	}
 }
@@ -618,6 +639,23 @@ img {
 			}
 		}
 	}
+
+	.public-orders {
+		&__title {
+			font-size: 6rem;
+		}
+
+		&__table {
+			th {
+				padding: 0.6rem;
+				font-size: 2rem;
+			}
+		}
+
+		&__order {
+			font-size: 1.8rem;
+		}
+	}
 }
 
 @media (min-width: 992px) {
@@ -681,20 +719,6 @@ img {
 			width: 80%;
 		}
 	}
-
-	// .offers {
-	// 	background-image: $dark-gradient, url(/img/hp4.jpg);
-
-	// 	&__option {
-	// 		&-img {
-	// 			object-fit: cover;
-	// 			height: 300px;
-	// 		}
-	// 		&-text {
-	// 			font-size: 1.5rem;
-	// 		}
-	// 	}
-	// }
 }
 @media (min-width: 1100px) {
 	.nav {
@@ -707,6 +731,23 @@ img {
 	.actu {
 		&__card {
 			width: 30%;
+		}
+	}
+
+	.public-orders {
+		&__title {
+			font-size: 8rem;
+		}
+
+		&__table {
+			th {
+				padding: 0.6rem;
+				font-size: 2.4rem;
+			}
+		}
+
+		&__order {
+			font-size: 2.2rem;
 		}
 	}
 }
