@@ -263,7 +263,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2em;
+  padding: 1em;
   height: 100vh;
   color: #fff;
   background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/first1.png");
@@ -274,13 +274,13 @@ img {
   font-size: 7.6rem;
   font-weight: 300;
   text-align: center;
+  margin-top: 0.3em;
   margin-bottom: 2rem;
 }
 .header__text {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
-  max-width: 80%;
 }
 .header__btn {
   background: #fff;
@@ -308,13 +308,32 @@ img {
 }
 .header__logo {
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
+  height: 3em;
+  width: 3em;
   background-color: white;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
   cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
+.header__logo:hover {
+  scale: 1.2;
+  border-radius: 8%;
+}
+.header__logo--1 {
+  background-image: url(../img//life.jpg);
+}
+.header__logo--2 {
+  background-size: contain;
+  background-image: url(../img/natura2000.jpg);
+}
+.header__logo--3 {
+  background-image: url(../img/logotyp-07.jpg);
+}
+
 .eco {
   background-color: rgb(70, 57, 42);
 }
@@ -637,6 +656,10 @@ img {
 }
 
 @media (min-width: 576px) {
+  .header__logo {
+    height: 5em;
+    width: 5em;
+  }
   .nav {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -689,6 +712,10 @@ img {
   }
 }
 @media (min-width: 768px) {
+  .header__logo {
+    height: 6em;
+    width: 6em;
+  }
   .nav {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -800,6 +827,9 @@ img {
   .header__heading {
     font-size: 10rem;
   }
+  .header__text {
+    font-size: 3rem;
+  }
   .nav__item {
     font-size: 2.8rem;
   }
@@ -846,6 +876,18 @@ img {
   }
 }
 @media (min-width: 1100px) {
+  .header__logo {
+    height: 8em;
+    width: 8em;
+    margin-bottom: 2em;
+  }
+  .header__heading {
+    font-size: 8rem;
+  }
+  .header__text {
+    font-size: 2.2rem;
+    max-width: 70%;
+  }
   .nav {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
