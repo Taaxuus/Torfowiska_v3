@@ -496,7 +496,7 @@ img {
 	background-image: $dark-gradient,
 		url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
 	background-size: cover;
-	color: $light-white;
+	color: $dark;
 
 	.wrapper {
 		display: flex;
@@ -504,6 +504,7 @@ img {
 	}
 
 	&__title {
+		color: $light-white;
 		text-align: center;
 		padding: 1.7em 1em 1em 1em;
 		font-size: 3rem;
@@ -511,7 +512,7 @@ img {
 
 	&__table {
 		padding: 0.3em;
-		@include bgGlass;
+		@include whiteBgGlass;
 		th {
 			text-align: center;
 			font-size: 0.8rem;
@@ -795,12 +796,12 @@ img {
 		&__table {
 			th {
 				padding: 0.6rem;
-				font-size: 2.4rem;
+				font-size: 1.7rem;
 			}
 		}
 
 		&__order {
-			font-size: 2.2rem;
+			font-size: 1.4rem;
 		}
 	}
 }
