@@ -182,10 +182,13 @@ img {
 		}
 	}
 	&__logo--box {
-		padding: 0.5em;
-		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		gap: 0.5em;
+		width: 45%;
 		display: flex;
-		justify-content: space-around;
+		// justify-content: space-around;
 	}
 
 	&__logo {
@@ -197,7 +200,7 @@ img {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		border-radius: 50%;
+
 		transition: all 0.3s;
 
 		&:hover {
@@ -530,13 +533,6 @@ img {
 // MEDIA
 // =========================
 @media (min-width: 576px) {
-	.header {
-		&__logo {
-			height: 5em;
-			width: 5em;
-		}
-	}
-
 	.nav {
 		justify-content: flex-start;
 
@@ -593,12 +589,6 @@ img {
 }
 
 @media (min-width: 768px) {
-	.header {
-		&__logo {
-			height: 6em;
-			width: 6em;
-		}
-	}
 	.nav {
 		justify-content: flex-start;
 
@@ -774,12 +764,6 @@ img {
 }
 @media (min-width: 1100px) {
 	.header {
-		&__logo {
-			height: 8em;
-			width: 8em;
-			margin-bottom: 2em;
-		}
-
 		&__heading {
 			font-size: 8rem;
 			// margin-bottom: 1em;
