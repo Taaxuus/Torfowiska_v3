@@ -565,6 +565,34 @@ img {
   text-align: center;
 }
 
+.public-orders {
+  padding: 1em;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
+  background-size: cover;
+  color: #eee;
+}
+.public-orders__title {
+  padding: 1.7em 1em 1em 1em;
+  font-size: 3rem;
+}
+.public-orders__table th {
+  text-align: center;
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #eee;
+}
+
 @media (min-width: 576px) {
   .nav {
     -webkit-box-pack: start;
