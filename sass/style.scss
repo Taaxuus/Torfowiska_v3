@@ -298,11 +298,11 @@ img {
 
 		&:hover {
 			.actu__card-img {
-				transform: rotateY(-180deg);
+				// transform: rotateY(-180deg);
 				opacity: 0;
 			}
 			.actu__card-info {
-				transform: rotateY(0deg);
+				// transform: rotateY(0deg);
 				opacity: 1;
 			}
 		}
@@ -341,6 +341,7 @@ img {
 		}
 
 		&-info {
+			color: $dark;
 			position: absolute;
 			top: 0;
 			bottom: 0;
@@ -350,13 +351,12 @@ img {
 			flex-direction: column;
 			justify-content: center;
 			border-radius: 8px;
-			@include bgGlass;
+			@include whiteBgGlass;
 			opacity: 0;
-			transform: rotateY(180deg);
 			transition: transform 1s, opacity 1s;
 
 			&-title {
-				@include islandCardStyles;
+				@include actuCardStyles;
 				top: 1.2em;
 				font-size: 2.8rem;
 			}
@@ -376,7 +376,7 @@ img {
 				}
 			}
 			&-btn {
-				@include islandCardStyles;
+				@include actuCardStyles;
 				bottom: 2em;
 				padding: 1em;
 				border-radius: 8px;

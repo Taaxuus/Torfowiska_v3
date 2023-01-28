@@ -124,7 +124,6 @@ img {
   height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.67);
-  border-radius: 16px;
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10.7px);
@@ -410,13 +409,9 @@ img {
           perspective: 1000px;
 }
 .actu__card:hover .actu__card-img {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
   opacity: 0;
 }
 .actu__card:hover .actu__card-info {
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
   opacity: 1;
 }
 .actu__card-img {
@@ -452,6 +447,7 @@ img {
   margin-right: 0.7em;
 }
 .actu__card-info {
+  color: #2e2e2e;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -468,16 +464,13 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.67);
-  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.76);
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10.7px);
-  -webkit-backdrop-filter: blur(10.7px);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   opacity: 0;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
   -webkit-transition: opacity 1s, -webkit-transform 1s;
   transition: opacity 1s, -webkit-transform 1s;
   transition: transform 1s, opacity 1s;
@@ -652,7 +645,6 @@ img {
 .public-orders__table {
   padding: 0.3em;
   background: rgba(255, 255, 255, 0.76);
-  border-radius: 16px;
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.9px);
