@@ -350,7 +350,7 @@ img {
 			flex-direction: column;
 			justify-content: center;
 			border-radius: 8px;
-			background-image: $green-gradient-solid;
+			@include bgGlass;
 			opacity: 0;
 			transform: rotateY(180deg);
 			transition: transform 1s, opacity 1s;
