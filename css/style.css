@@ -377,7 +377,7 @@ img {
 .hero-img {
   position: relative;
   padding: 8em 2em;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url("../img/Little-river-in-a-forest_About_Project.jpg");
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.104), rgba(98, 96, 96, 0.457)), url("../img/Little-river-in-a-forest_About_Project.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -423,19 +423,20 @@ img {
   height: 100%;
   border-radius: 8px;
   background-size: cover;
+  background-position: center;
   -webkit-transition: opacity 1s, -webkit-transform 1s;
   transition: opacity 1s, -webkit-transform 1s;
   transition: transform 1s, opacity 1s;
   transition: transform 1s, opacity 1s, -webkit-transform 1s;
 }
 .actu__card-img--first {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu1.png);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.104), rgba(98, 96, 96, 0.457)), url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
 }
 .actu__card-img--second {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu2.png);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.104), rgba(98, 96, 96, 0.457)), url(../img/A-raised-bog-743322.jpg);
 }
 .actu__card-img--third {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/actu3.png);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.104), rgba(98, 96, 96, 0.457)), url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
 }
 .actu__card-img-title {
   font-size: 2.8rem;
@@ -623,7 +624,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.4), rgba(48, 48, 48, 0.7)), url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.104), rgba(98, 96, 96, 0.457)), url(../img/oleczka99_one_side_web_about_protecting_bogs_and_wetlands_with__e709fdc5-b562-4552-80c4-2ceae9b34940.png);
   background-size: cover;
   color: #2e2e2e;
 }

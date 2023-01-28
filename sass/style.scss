@@ -314,16 +314,17 @@ img {
 			height: 100%;
 			border-radius: 8px;
 			background-size: cover;
+			background-position: center;
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $dark-gradient, url(../img/actu1.png);
+				background-image: $dark-gradient, url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
 			}
 			&--second {
-				background-image: $dark-gradient, url(../img/actu2.png);
+				background-image: $dark-gradient, url(../img/A-raised-bog-743322.jpg);
 			}
 			&--third {
-				background-image: $dark-gradient, url(../img/actu3.png);
+				background-image: $dark-gradient, url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
 			}
 			&-title {
 				font-size: 2.8rem;
