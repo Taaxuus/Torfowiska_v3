@@ -9,6 +9,7 @@ const allP = document.querySelectorAll('p');
 const allA = document.querySelectorAll('a');
 const allH3 = document.querySelectorAll('h3');
 const allH2 = document.querySelectorAll('h2');
+const allLi = document.querySelectorAll('li');
 const allBtns = document.querySelectorAll('button');
 const blocks = document.querySelectorAll('.white-block');
 const footerYear = document.querySelector('.footer__year');
@@ -86,6 +87,9 @@ const contrastFc = () => {
 	});
 	allBtns.forEach(btn => {
 		btn.classList.toggle('contrast-styles');
+	});
+	allLi.forEach(li => {
+		li.classList.toggle('contrast-styles');
 	});
 
 	whiteSection.classList.toggle('white-section');

@@ -974,6 +974,9 @@ input:checked + .slider:before {
   color: rgb(251, 255, 0);
   border: 2px solid rgb(251, 255, 0);
 }
+.contrast-styles:hover {
+  background-color: #000000;
+}
 
 .contrast__logo--1 {
   background-image: url(../img/logo_LIFE_nb.jpg);
