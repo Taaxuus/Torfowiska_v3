@@ -466,11 +466,11 @@ input:checked + .slider:before {
 	background-color: $light-white;
 	overflow: hidden;
 
-	.white-block-left {
+	&__block {
 		background-color: $dark;
 	}
 
-	h2 {
+	&__title {
 		color: $dark;
 	}
 
@@ -875,4 +875,23 @@ input:checked + .slider:before {
 			font-size: 1.4rem;
 		}
 	}
+}
+
+.contrast-styles {
+	background: $black;
+	color: $contrast-yellow;
+	border: 2px solid $contrast-yellow;
+}
+
+.contrast__logo--1 {
+	background-image: url(../img/logo_LIFE_nb.jpg);
+	@include contrastLogo;
+}
+.contrast__logo--2 {
+	background-image: url(../img/natura2000_bw.jpg);
+	@include contrastLogo;
+}
+.contrast__logo--3 {
+	background-image: url(../img/nfog_BW.png);
+	@include contrastLogo;
 }

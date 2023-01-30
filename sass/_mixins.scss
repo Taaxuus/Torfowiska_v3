@@ -43,3 +43,10 @@
 	-webkit-backdrop-filter: blur(7.9px);
 	border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+@mixin contrastLogo {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+}

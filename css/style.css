@@ -583,10 +583,10 @@ input:checked + .slider:before {
   background-color: #eee;
   overflow: hidden;
 }
-.contact .white-block-left {
+.contact__block {
   background-color: #2e2e2e;
 }
-.contact h2 {
+.contact__title {
   color: #2e2e2e;
 }
 .contact__form, .contact__form-top {
@@ -968,4 +968,33 @@ input:checked + .slider:before {
   .public-orders__order {
     font-size: 1.4rem;
   }
+}
+.contrast-styles {
+  background: #000000;
+  color: rgb(251, 255, 0);
+  border: 2px solid rgb(251, 255, 0);
+}
+
+.contrast__logo--1 {
+  background-image: url(../img/logo_LIFE_nb.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.contrast__logo--2 {
+  background-image: url(../img/natura2000_bw.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.contrast__logo--3 {
+  background-image: url(../img/nfog_BW.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
