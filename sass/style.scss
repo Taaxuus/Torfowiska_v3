@@ -76,64 +76,9 @@ img {
 	background-image: url(../img/eye_contrast_icon.png);
 	background-position: top;
 	background-size: contain;
-}
-
-.switch {
-	position: relative;
-	top: 80%;
-	display: inline-block;
-	align-self: flex-end;
-	width: 60px;
-	height: 34px;
-}
-
-.switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
-}
-
-.slider {
-	position: absolute;
+	width: 3em;
+	height: 3em;
 	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: grey;
-	-webkit-transition: 0.4s;
-	transition: 0.4s;
-}
-
-.slider:before {
-	position: absolute;
-	content: '';
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
-	background-color: $light-white;
-	-webkit-transition: 0.4s;
-	transition: 0.4s;
-}
-
-input:checked + .slider {
-	background-color: $black;
-}
-
-input:checked + .slider:before {
-	background-color: $contrast-yellow;
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
-}
-
-.slider.round {
-	border-radius: 34px;
-}
-
-.slider.round:before {
-	border-radius: 50%;
 }
 
 .burger-btn {
@@ -260,14 +205,14 @@ input:checked + .slider:before {
 		top: 0;
 		left: 0.5em;
 		gap: 0.7em;
-		width: 45%;
+		max-width: 70%;
 		display: flex;
 	}
 
 	&__logo {
 		display: inline-block;
-		height: 4em;
-		width: 4em;
+		height: 3em;
+		width: 3em;
 		background-color: white;
 		cursor: pointer;
 		background-size: cover;
@@ -686,6 +631,10 @@ input:checked + .slider:before {
 		&__btn {
 			font-size: 1.6rem;
 		}
+		&__logo {
+			width: 4em;
+			height: 4em;
+		}
 	}
 
 	.eco {
@@ -896,5 +845,10 @@ input:checked + .slider:before {
 }
 .contrast__logo--3 {
 	background-image: url(../img/nfog_BW.png);
+	@include contrastLogo;
+}
+
+.contrast-box--logo {
+	background-image: url(../img/eye_white.jpg);
 	@include contrastLogo;
 }

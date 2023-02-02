@@ -14,7 +14,7 @@ const allBtns = document.querySelectorAll('button');
 const blocks = document.querySelectorAll('.white-block');
 const footerYear = document.querySelector('.footer__year');
 const footer = document.querySelector('footer');
-const checkbox = document.querySelector('input[type="checkbox"]');
+const contrastBtn = document.querySelector('.contrast-box');
 const headerLogo1 = document.querySelector('.header__logo--1');
 const headerLogo2 = document.querySelector('.header__logo--2');
 const headerLogo3 = document.querySelector('.header__logo--3');
@@ -99,9 +99,10 @@ const contrastFc = () => {
 	headerLogo1.classList.toggle('contrast__logo--1');
 	headerLogo2.classList.toggle('contrast__logo--2');
 	headerLogo3.classList.toggle('contrast__logo--3');
+	contrastBtn.classList.toggle('contrast-box--logo');
 };
 
 navBtn.addEventListener('click', handleNav);
 handleCurrentYear();
 window.addEventListener('scroll', handleObserver);
-checkbox.addEventListener('change', contrastFc);
+contrastBtn.addEventListener('click', contrastFc);

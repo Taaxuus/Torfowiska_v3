@@ -172,64 +172,9 @@ img {
   background-image: url(../img/eye_contrast_icon.png);
   background-position: top;
   background-size: contain;
-}
-
-.switch {
-  position: relative;
-  top: 80%;
-  display: inline-block;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
+  width: 3em;
+  height: 3em;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: grey;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: #eee;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #000000;
-}
-
-input:checked + .slider:before {
-  background-color: rgb(251, 255, 0);
-  -webkit-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
 
 .burger-btn {
@@ -374,15 +319,15 @@ input:checked + .slider:before {
   top: 0;
   left: 0.5em;
   gap: 0.7em;
-  width: 45%;
+  max-width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .header__logo {
   display: inline-block;
-  height: 4em;
-  width: 4em;
+  height: 3em;
+  width: 3em;
   background-color: white;
   cursor: pointer;
   background-size: cover;
@@ -805,6 +750,10 @@ input:checked + .slider:before {
   .header__btn {
     font-size: 1.6rem;
   }
+  .header__logo {
+    width: 4em;
+    height: 4em;
+  }
   .eco__text {
     font-size: 1.8rem;
   }
@@ -996,6 +945,14 @@ input:checked + .slider:before {
 
 .contrast__logo--3 {
   background-image: url(../img/nfog_BW.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.contrast-box--logo {
+  background-image: url(../img/eye_white.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
