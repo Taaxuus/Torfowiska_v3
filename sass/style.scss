@@ -24,6 +24,50 @@ img {
 	border-radius: 10px;
 }
 
+//PUBLIC ORDERS
+.public-orders {
+	position: relative;
+	padding: 1em;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: $dark-gradient, url(../img/Frozen-morning-in-lake-910764.JPG);
+	background-size: cover;
+	background-position: center;
+	color: $dark;
+
+	.wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__title {
+		color: $light-white;
+		text-align: center;
+		padding: 1.7em 1em 1em 1em;
+		font-size: 3rem;
+	}
+
+	&__table {
+		padding: 0.3em;
+		@include whiteBgGlass;
+		th {
+			text-align: center;
+			font-size: 0.8rem;
+			border-bottom: 1px solid $light-white;
+			font-weight: bold;
+		}
+	}
+
+	&__order {
+		font-size: 0.8rem;
+		td {
+			text-align: center;
+			border-bottom: 1px solid $light-white;
+		}
+	}
+}
 // NAV
 
 .nav {
@@ -507,50 +551,6 @@ img {
 	&__bottom-text {
 		padding: 2em;
 		text-align: center;
-	}
-}
-
-//PUBLIC ORDERS
-.public-orders {
-	padding: 1em;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-image: $dark-gradient, url(../img/Frozen-morning-in-lake-910764.JPG);
-	background-size: cover;
-	background-position: center;
-	color: $dark;
-
-	.wrapper {
-		display: flex;
-		justify-content: center;
-	}
-
-	&__title {
-		color: $light-white;
-		text-align: center;
-		padding: 1.7em 1em 1em 1em;
-		font-size: 3rem;
-	}
-
-	&__table {
-		padding: 0.3em;
-		@include whiteBgGlass;
-		th {
-			text-align: center;
-			font-size: 0.8rem;
-			border-bottom: 1px solid $light-white;
-			font-weight: bold;
-		}
-	}
-
-	&__order {
-		font-size: 0.8rem;
-		td {
-			text-align: center;
-			border-bottom: 1px solid $light-white;
-		}
 	}
 }
 

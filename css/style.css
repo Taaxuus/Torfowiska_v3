@@ -109,6 +109,62 @@ img {
   border-radius: 10px;
 }
 
+.public-orders {
+  position: relative;
+  padding: 1em;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/Frozen-morning-in-lake-910764.JPG);
+  background-size: cover;
+  background-position: center;
+  color: #2e2e2e;
+}
+.public-orders .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.public-orders__title {
+  color: #eee;
+  text-align: center;
+  padding: 1.7em 1em 1em 1em;
+  font-size: 3rem;
+}
+.public-orders__table {
+  padding: 0.3em;
+  background: rgba(255, 255, 255, 0.76);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.public-orders__table th {
+  text-align: center;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+.public-orders__order {
+  font-size: 0.8rem;
+}
+.public-orders__order td {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -623,61 +679,6 @@ img {
 .footer__bottom-text {
   padding: 2em;
   text-align: center;
-}
-
-.public-orders {
-  padding: 1em;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/Frozen-morning-in-lake-910764.JPG);
-  background-size: cover;
-  background-position: center;
-  color: #2e2e2e;
-}
-.public-orders .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.public-orders__title {
-  color: #eee;
-  text-align: center;
-  padding: 1.7em 1em 1em 1em;
-  font-size: 3rem;
-}
-.public-orders__table {
-  padding: 0.3em;
-  background: rgba(255, 255, 255, 0.76);
-  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.9px);
-  -webkit-backdrop-filter: blur(7.9px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-.public-orders__table th {
-  text-align: center;
-  font-size: 0.8rem;
-  border-bottom: 1px solid #eee;
-  font-weight: bold;
-}
-.public-orders__order {
-  font-size: 0.8rem;
-}
-.public-orders__order td {
-  text-align: center;
-  border-bottom: 1px solid #eee;
 }
 
 @media (min-width: 576px) {
