@@ -179,8 +179,7 @@ img {
   height: 2em;
   border-radius: 50%;
   cursor: pointer;
-  -ms-flex-item-align: f;
-      align-self: f;
+  border: 2px solid #2e2e2e;
 }
 
 .burger-btn {
