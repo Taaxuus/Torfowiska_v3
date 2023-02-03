@@ -18,7 +18,6 @@ const contrastBtn = document.querySelector('.contrast-box');
 const headerLogo1 = document.querySelector('.header__logo--1');
 const headerLogo2 = document.querySelector('.header__logo--2');
 const headerLogo3 = document.querySelector('.header__logo--3');
-const videoPlayer = document.getElementById('videoPlayer');
 
 const handleNav = () => {
 	nav.classList.toggle('nav--active');
@@ -107,15 +106,3 @@ navBtn.addEventListener('click', handleNav);
 handleCurrentYear();
 window.addEventListener('scroll', handleObserver);
 contrastBtn.addEventListener('click', contrastFc);
-
-// video player every 2 min
-
-let videoIndex = 0;
-const videoSources = ['./video/A-swamp-from-above-1218291_v2.mp4'];
-
-function changeVideo() {
-	videoIndex = (videoIndex + 1) % videoSources.length;
-	videoPlayer.src = videoSources[videoIndex];
-}
-
-setInterval(changeVideo, 2 * 60 * 1000); // every 2 minutes
