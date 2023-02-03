@@ -122,7 +122,7 @@ function changeVideo() {
 	videoPlayer.src = videoSources[videoIndex];
 }
 
-setInterval(changeVideo, 0.5 * 60 * 1000); // every 2 minutes
+setInterval(changeVideo, 0.5 * 60 * 1000); // every 30 sec
 
 //fade on video
 
