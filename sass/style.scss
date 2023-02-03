@@ -18,6 +18,7 @@ html {
 body {
 	font-family: 'Overpass', sans-serif;
 	font-size: 1.6rem;
+	background-color: $dark;
 }
 
 img {
@@ -203,6 +204,7 @@ img {
 		object-fit: cover;
 		z-index: -1;
 		filter: brightness(75%);
+		transition: opacity 1s;
 	}
 
 	&__heading {

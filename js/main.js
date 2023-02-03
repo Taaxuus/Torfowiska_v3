@@ -111,11 +111,26 @@ contrastBtn.addEventListener('click', contrastFc);
 // video player every 2 min
 
 let videoIndex = 0;
-const videoSources = ['./video/A-swamp-from-above-1218291_v2.mp4'];
+const videoSources = [
+	'./video/A-swamp-from-above-1218291_v2.mp4',
+	'./video/Foggy-swamp-aerial-896962.mp4',
+	'./video/P1270477_4_1.mp4',
+];
 
 function changeVideo() {
 	videoIndex = (videoIndex + 1) % videoSources.length;
 	videoPlayer.src = videoSources[videoIndex];
 }
 
-setInterval(changeVideo, 2 * 60 * 1000); // every 2 minutes
+setInterval(changeVideo, 0.5 * 60 * 1000); // every 2 minutes
+
+//fade on video
+
+function changeVideo() {
+	videoPlayer.style.opacity = 0;
+	setTimeout(function () {
+		videoIndex = (videoIndex + 1) % videoSources.length;
+		videoPlayer.src = videoSources[videoIndex];
+		videoPlayer.style.opacity = 1;
+	});
+}

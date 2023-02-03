@@ -152,6 +152,7 @@ html {
 body {
   font-family: "Overpass", sans-serif;
   font-size: 1.6rem;
+  background-color: #2e2e2e;
 }
 
 img {
@@ -382,6 +383,8 @@ img {
   z-index: -1;
   -webkit-filter: brightness(75%);
           filter: brightness(75%);
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 .header__heading {
   font-family: "Amaranth", sans-serif;
