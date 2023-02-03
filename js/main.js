@@ -122,7 +122,7 @@ function changeVideo() {
 	videoPlayer.src = videoSources[videoIndex];
 }
 
-setInterval(changeVideo, 0.5 * 60 * 1000); // every 30 sec
+setInterval(changeVideo, 0.5 * 60 * 1000); // every 30
 
 //fade on video
 
@@ -132,5 +132,5 @@ function changeVideo() {
 		videoIndex = (videoIndex + 1) % videoSources.length;
 		videoPlayer.src = videoSources[videoIndex];
 		videoPlayer.style.opacity = 1;
-	});
+	}, 1000);
 }
