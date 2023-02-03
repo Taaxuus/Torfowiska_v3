@@ -22,6 +22,22 @@
 	}
 }
 
+// contrast
+
+.contrast-box {
+	position: absolute;
+	right: 3rem;
+	top: 7.9rem;
+	background-image: url(../img/eye_contrast_icon.png);
+	background-position: top;
+	background-size: contain;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px solid $dark;
+}
+
 .btn-special-animation {
 	position: relative;
 	transition: background-color 0.3s;
@@ -62,6 +78,33 @@
 	padding: 3em 2em;
 }
 
+.btn-download {
+	color: $dark;
+	font-size: 1rem;
+	align-self: center;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		scale: 1.2;
+	}
+}
+
+.download-box {
+	padding: 1.2rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+	.btn-download {
+		font-size: 1.5rem;
+	}
+}
+
 @media (min-width: 768px) {
 	.section-heading {
 		font-size: 3.6rem;
@@ -78,5 +121,9 @@
 
 	.section-padding {
 		padding: 5em 2em;
+	}
+
+	.btn-download {
+		font-size: 2rem;
 	}
 }

@@ -23,6 +23,20 @@
           transform: skew(45deg);
 }
 
+.contrast-box {
+  position: absolute;
+  right: 3rem;
+  top: 7.9rem;
+  background-image: url(../img/eye_contrast_icon.png);
+  background-position: top;
+  background-size: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #2e2e2e;
+}
+
 .btn-special-animation {
   position: relative;
   -webkit-transition: background-color 0.3s;
@@ -70,6 +84,38 @@
   padding: 3em 2em;
 }
 
+.btn-download {
+  color: #2e2e2e;
+  font-size: 1rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-download:hover {
+  scale: 1.2;
+}
+
+.download-box {
+  padding: 1.2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+  .btn-download {
+    font-size: 1.5rem;
+  }
+}
 @media (min-width: 768px) {
   .section-heading {
     font-size: 3.6rem;
@@ -84,6 +130,9 @@
   }
   .section-padding {
     padding: 5em 2em;
+  }
+  .btn-download {
+    font-size: 2rem;
   }
 }
 *,
@@ -153,12 +202,13 @@ img {
 }
 .public-orders__table th {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   border-bottom: 1px solid #eee;
   font-weight: bold;
 }
 .public-orders__order {
-  font-size: 0.8rem;
+  font-size: 0.65rem;
+  text-align: center;
 }
 .public-orders__order td {
   text-align: center;
@@ -222,20 +272,6 @@ img {
 .nav__item:hover:before {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
-}
-
-.contrast-box {
-  position: absolute;
-  right: 3em;
-  top: 6em;
-  background-image: url(../img/eye_contrast_icon.png);
-  background-position: top;
-  background-size: contain;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 2px solid #2e2e2e;
 }
 
 .burger-btn {
@@ -822,10 +858,10 @@ img {
   }
   .public-orders__table th {
     padding: 0.6rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
   .public-orders__order {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 992px) {
@@ -893,10 +929,10 @@ img {
     width: 80%;
   }
   .contrast-box {
-    width: 2.5em;
-    height: 2.5em;
-    right: 5em;
-    top: 1.2em;
+    width: 3rem;
+    height: 3rem;
+    right: 7rem;
+    top: 2rem;
   }
 }
 @media (min-width: 1100px) {
