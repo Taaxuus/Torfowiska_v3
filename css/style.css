@@ -381,8 +381,8 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 .header__heading {
   font-family: "Amaranth", sans-serif;
