@@ -541,6 +541,9 @@ img {
 		&:first-child {
 			padding-left: 0;
 		}
+		&:last-child {
+			padding-left: 0;
+		}
 	}
 
 	&__bottom-text {

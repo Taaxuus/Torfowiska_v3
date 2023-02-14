@@ -778,6 +778,9 @@ img {
 .footer__box-link:first-child {
   padding-left: 0;
 }
+.footer__box-link:last-child {
+  padding-left: 0;
+}
 .footer__bottom-text {
   padding: 2em;
   text-align: center;
