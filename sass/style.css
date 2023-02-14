@@ -66,7 +66,7 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #141313;
+  color: #000000;
   letter-spacing: 2px;
 }
 
@@ -186,7 +186,7 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #141313;
+  color: #000000;
   letter-spacing: 2px;
 }
 
@@ -302,7 +302,7 @@ html {
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Source Serif Pro", serif;
   font-size: 1.6rem;
   background-color: #2e2e2e;
 }
@@ -328,7 +328,7 @@ img {
   justify-content: center;
 }
 .public-orders__title {
-  color: #141313;
+  color: #000000;
   text-align: center;
   padding: 1.7em 1em 1em 1em;
   font-size: 3rem;
@@ -344,7 +344,7 @@ img {
 .public-orders__table th {
   text-align: center;
   font-size: 0.7rem;
-  border-bottom: 1px solid #141313;
+  border-bottom: 1px solid #000000;
   font-weight: bold;
 }
 .public-orders__order {
@@ -353,7 +353,7 @@ img {
 }
 .public-orders__order td {
   text-align: center;
-  border-bottom: 1px solid #141313;
+  border-bottom: 1px solid #000000;
 }
 
 .nav {
@@ -509,7 +509,7 @@ img {
   cursor: pointer;
 }
 .header__btn::before {
-  background-color: #141313;
+  background-color: #000000;
 }
 .header__logo--box {
   position: absolute;
@@ -565,11 +565,11 @@ img {
 }
 .eco__title {
   margin-bottom: 0.8em;
-  color: #141313;
+  color: #000000;
 }
 .eco__text {
   font-size: 1.4rem;
-  color: #141313;
+  color: #000000;
 }
 
 .hero-img {
@@ -681,7 +681,7 @@ img {
 .actu__card-info-list-item {
   padding: 1em;
   font-size: 1.4rem;
-  border-bottom: 1px solid #141313;
+  border-bottom: 1px solid #000000;
 }
 .actu__card-info-list-item:last-child {
   border-bottom: none;
@@ -701,14 +701,18 @@ img {
 .actu__card-info-btn::before {
   background-color: #f3f9f7;
 }
-.actu__card-info-btn a {
+.actu__card-info-btn:hover a {
+  color: #000000;
+}
+.actu__card-info a {
+  transition: all 0.3s;
   text-decoration: none;
-  color: #2e2e2e;
+  color: #fff;
 }
 
 .contact {
   position: relative;
-  background-color: #141313;
+  background-color: #000000;
   overflow: hidden;
 }
 .contact__title {
@@ -929,10 +933,10 @@ img {
     margin-bottom: 2.5em;
   }
   .eco__title {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
   .eco__text {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .hero-img {
     display: flex;

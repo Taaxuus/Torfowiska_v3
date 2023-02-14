@@ -17,7 +17,7 @@ html {
 }
 
 body {
-	font-family: "Playfair Display", serif;
+	font-family: "Source Serif Pro", serif;
 	font-size: 1.6rem;
 	background-color: $dark;
 }
@@ -445,11 +445,17 @@ img {
 				&::before {
 					background-color: $green-color-hover;
 				}
-
-				a {
-					text-decoration: none;
-					color: $dark;
+				&:hover {
+					a {
+						color: $light-white;
+					}
 				}
+			}
+
+			a {
+				transition: all 0.3s;
+				text-decoration: none;
+				color: $pure-white;
 			}
 		}
 	}
@@ -751,10 +757,10 @@ img {
 			}
 		}
 		&__title {
-			font-size: 3.6rem;
+			font-size: 2.6rem;
 		}
 		&__text {
-			font-size: 2.2rem;
+			font-size: 1.8rem;
 		}
 	}
 
