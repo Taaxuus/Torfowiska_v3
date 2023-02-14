@@ -118,6 +118,176 @@
     font-size: 2rem;
   }
 }
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.white-block {
+  position: absolute;
+  height: 40px;
+  width: 60%;
+  background-color: rgb(70, 57, 42);
+}
+.white-block-left {
+  bottom: 0;
+  left: -50px;
+  transform: skew(45deg);
+}
+.white-block-right {
+  top: 0;
+  right: -50px;
+  transform: skew(45deg);
+}
+
+.contrast-box {
+  position: absolute;
+  right: 3rem;
+  top: 7.9rem;
+  background-image: url(../img/eye_contrast_icon.png);
+  background-position: top;
+  background-size: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #2e2e2e;
+}
+
+.btn-special-animation {
+  position: relative;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  z-index: 0;
+}
+.btn-special-animation::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+  z-index: -1;
+}
+.btn-special-animation:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.section-heading {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #eee;
+  letter-spacing: 2px;
+}
+
+.section-padding {
+  padding: 3em 2em;
+}
+
+.btn-download {
+  color: #2e2e2e;
+  font-size: 1rem;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-download:hover {
+  scale: 1.2;
+}
+
+.download-box {
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (min-width: 576px) {
+  .btn-download {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: 3.6rem;
+  }
+  .section-padding {
+    padding: 5em 2em;
+  }
+}
+@media (min-width: 992px) {
+  .section-heading {
+    font-size: 4.8rem;
+  }
+  .section-padding {
+    padding: 5em 2em;
+  }
+  .btn-download {
+    font-size: 2rem;
+  }
+}
+.actus {
+  position: relative;
+  padding: 7em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(45deg, rgba(5, 5, 5, 0.649), rgba(0, 0, 0, 0.988)), url(../img/Frozen-morning-in-lake-910764.JPG);
+  background-size: cover;
+  background-position: center;
+  color: #2e2e2e;
+}
+.actus .wrapper {
+  display: flex;
+  justify-content: center;
+}
+.actus__title {
+  color: #2e2e2e;
+  text-align: center;
+  padding: 1.7em 1em 1em 1em;
+  font-size: 3rem;
+}
+.actus__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #eee;
+  max-width: 90vw;
+  padding: 2em;
+  border-radius: 8px;
+}
+.actus__content__text {
+  text-align: jus;
+}
+.actus__content .img {
+  width: 100%;
+}
+.actus__content span {
+  align-self: center;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .actus__content {
+    max-width: 60vw;
+  }
+  .actus__content .img {
+    width: 100%;
+  }
+}
 *,
 *::before,
 *::after {
@@ -148,7 +318,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/Frozen-morning-in-lake-910764.JPG);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-morning-in-lake-910764.JPG);
   background-size: cover;
   background-position: center;
   color: #2e2e2e;
@@ -409,7 +579,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 8em 2em;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url("../img/Little-river-in-a-forest_About_Project.jpg");
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url("../img/Little-river-in-a-forest_About_Project.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -455,13 +625,13 @@ img {
   transition: transform 1s, opacity 1s;
 }
 .actu__card-img--first {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
 }
 .actu__card-img--second {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/A-raised-bog-743322.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/A-raised-bog-743322.jpg);
 }
 .actu__card-img--third {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457)), url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
 }
 .actu__card-img-title {
   font-size: 2.8rem;
@@ -530,6 +700,10 @@ img {
 }
 .actu__card-info-btn::before {
   background-color: #f3f9f7;
+}
+.actu__card-info-btn a {
+  text-decoration: none;
+  color: #2e2e2e;
 }
 
 .contact {

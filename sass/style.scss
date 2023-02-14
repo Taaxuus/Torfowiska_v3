@@ -1,6 +1,7 @@
 @import "./colors";
 @import "./components";
 @import "./mixins";
+@import "./actu";
 
 *,
 *::before,
@@ -443,6 +444,11 @@ img {
 
 				&::before {
 					background-color: $green-color-hover;
+				}
+
+				a {
+					text-decoration: none;
+					color: $dark;
 				}
 			}
 		}

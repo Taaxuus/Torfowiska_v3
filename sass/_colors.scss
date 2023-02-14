@@ -7,6 +7,15 @@ $green-color-hover: #f3f9f7;
 $black: #000000;
 $contrast-yellow: rgb(251, 255, 0);
 
-$dark-gradient: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(98, 96, 96, 0.457));
+$dark-gradient: linear-gradient(
+	45deg,
+	rgba(7, 7, 7, 0.331),
+	rgba(22, 21, 21, 0.457)
+);
+$white-gradient: linear-gradient(
+	45deg,
+	rgba(5, 5, 5, 0.649),
+	rgba(0, 0, 0, 0.988)
+);
 
 $green-gradient-solid: linear-gradient(45deg, rgb(24, 28, 22), rgb(70, 57, 42));
