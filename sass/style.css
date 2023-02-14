@@ -8,7 +8,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: rgb(70, 57, 42);
+  background-color: rgb(55, 49, 44);
 }
 .white-block-left {
   bottom: 0;
@@ -128,7 +128,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: rgb(70, 57, 42);
+  background-color: rgb(55, 49, 44);
 }
 .white-block-left {
   bottom: 0;
@@ -256,8 +256,8 @@
 .actus__title {
   color: #2e2e2e;
   text-align: center;
-  padding: 1.7em 1em 1em 1em;
-  font-size: 3rem;
+  margin-top: 1rem;
+  font-size: 4.5rem;
 }
 .actus__content {
   display: flex;
@@ -302,7 +302,7 @@ html {
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.6rem;
   background-color: #2e2e2e;
 }
@@ -547,7 +547,7 @@ img {
 }
 
 .eco {
-  background-color: rgb(70, 57, 42);
+  background-color: rgb(55, 49, 44);
 }
 .eco__box {
   display: flex;
@@ -600,7 +600,7 @@ img {
 }
 
 .actu {
-  background-color: rgb(70, 57, 42);
+  background-color: rgb(55, 49, 44);
 }
 .actu__card {
   position: relative;
@@ -793,9 +793,7 @@ img {
   }
   .eco__box-text {
     width: 55%;
-  }
-  .eco__box-text--right {
-    text-align: right;
+    text-align: justify;
   }
   .eco__box-img {
     width: 42%;

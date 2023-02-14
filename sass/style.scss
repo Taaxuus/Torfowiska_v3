@@ -17,7 +17,7 @@ html {
 }
 
 body {
-	font-family: "Overpass", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.6rem;
 	background-color: $dark;
 }
@@ -562,10 +562,7 @@ img {
 
 			&-text {
 				width: 55%;
-
-				&--right {
-					text-align: right;
-				}
+				text-align: justify;
 			}
 
 			&-img {
