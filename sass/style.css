@@ -350,13 +350,13 @@ img {
   display: flex;
 }
 .header__logo {
+  height: 4em;
+  width: 4em;
   display: inline-block;
-  height: 3em;
-  width: 3em;
   background-color: white;
   cursor: pointer;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
   transition: all 0.3s;
 }
@@ -365,14 +365,15 @@ img {
   border-radius: 8%;
 }
 .header__logo--1 {
+  background-color: #2e4690;
   background-image: url(../img//life.jpg);
 }
 .header__logo--2 {
   background-size: contain;
-  background-image: url(../img/natura2000.jpg);
+  background-image: url(../img/natura2000.png);
 }
 .header__logo--3 {
-  background-image: url(../img/logotyp-07.jpg);
+  background-image: url(../img/nfog.png);
 }
 
 .eco {
@@ -665,8 +666,8 @@ img {
     font-size: 1.6rem;
   }
   .header__logo {
-    width: 4em;
-    height: 4em;
+    width: 6.5em;
+    height: 6.5em;
   }
   .eco__text {
     font-size: 1.8rem;
