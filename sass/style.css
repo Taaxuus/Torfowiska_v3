@@ -254,7 +254,7 @@
   justify-content: center;
 }
 .actus__title {
-  color: #2e2e2e;
+  color: #000000;
   text-align: center;
   margin-top: 1rem;
   font-size: 4.5rem;
@@ -509,7 +509,10 @@ img {
   cursor: pointer;
 }
 .header__btn::before {
-  background-color: #000000;
+  background-color: #9b9e9d;
+}
+.header__btn:hover {
+  color: #fff;
 }
 .header__logo--box {
   position: absolute;
@@ -625,13 +628,13 @@ img {
   transition: transform 1s, opacity 1s;
 }
 .actu__card-img--first {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/actu_1.jpg);
 }
 .actu__card-img--second {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/A-raised-bog-743322.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/actu_2.jpg);
 }
 .actu__card-img--third {
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/actu_3.png);
 }
 .actu__card-img-title {
   font-size: 2.8rem;
@@ -918,7 +921,7 @@ img {
     right: 50px;
   }
   .header__heading {
-    font-size: 10rem;
+    font-size: 5rem;
   }
   .header__text {
     font-size: 3rem;
