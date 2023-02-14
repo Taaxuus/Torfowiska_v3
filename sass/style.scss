@@ -457,48 +457,18 @@ img {
 	background-color: $light-white;
 	overflow: hidden;
 
-	&__block {
-		background-color: $dark;
-	}
-
 	&__title {
 		color: $dark;
+		margin-bottom: 2rem;
 	}
 
-	&__form,
-	&__form-top {
+	&__box {
 		display: flex;
 		flex-direction: column;
-	}
+		gap: 2rem;
 
-	&__form-label {
-		margin-bottom: 0.5em;
-		text-transform: uppercase;
-	}
-
-	&__form-input {
-		@include contactForm;
-	}
-
-	&__form-textarea {
-		@include contactForm;
-		max-width: 100%;
-		width: 100%;
-		min-height: 150px;
-	}
-
-	&__form-btn {
-		align-self: flex-end;
-		padding: 1em;
-		width: 100%;
-		max-width: 300px;
-		color: $pure-white;
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		background-color: $bg-green;
-		&::before {
-			background-color: $dark;
+		&--title {
+			font-weight: bold;
 		}
 	}
 }
@@ -511,9 +481,26 @@ img {
 	.wrapper {
 		padding: 6em 2em 2em;
 	}
+	.email {
+		text-decoration: none;
+		color: $pure-white;
+		cursor: pointer;
+	}
+
+	&__boxes {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
 
 	&__box {
 		font-size: 1.4rem;
+		&-list {
+			list-style: none;
+			&-item {
+				margin-bottom: 1em;
+			}
+		}
 	}
 	&__box-desktop {
 		display: none;
@@ -669,6 +656,7 @@ img {
 	.footer {
 		&__boxes {
 			display: flex;
+			flex-direction: row;
 			justify-content: space-between;
 		}
 		&__box-desktop {
@@ -676,8 +664,7 @@ img {
 		}
 
 		&__box {
-			margin: 0 2em;
-			width: 25%;
+			max-width: 25%;
 
 			&:first-child {
 				width: 50%;
