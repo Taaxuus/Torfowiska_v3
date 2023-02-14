@@ -8,7 +8,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: rgb(55, 49, 44);
+  background-color: rgb(245, 244, 244);
 }
 .white-block-left {
   bottom: 0;
@@ -66,7 +66,7 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #eee;
+  color: #141313;
   letter-spacing: 2px;
 }
 
@@ -128,7 +128,7 @@
   position: absolute;
   height: 40px;
   width: 60%;
-  background-color: rgb(55, 49, 44);
+  background-color: rgb(245, 244, 244);
 }
 .white-block-left {
   bottom: 0;
@@ -186,7 +186,7 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: #eee;
+  color: #141313;
   letter-spacing: 2px;
 }
 
@@ -263,7 +263,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: #eee;
+  background-color: #fff;
   max-width: 90vw;
   padding: 2em;
   border-radius: 8px;
@@ -328,7 +328,7 @@ img {
   justify-content: center;
 }
 .public-orders__title {
-  color: #eee;
+  color: #141313;
   text-align: center;
   padding: 1.7em 1em 1em 1em;
   font-size: 3rem;
@@ -344,7 +344,7 @@ img {
 .public-orders__table th {
   text-align: center;
   font-size: 0.7rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #141313;
   font-weight: bold;
 }
 .public-orders__order {
@@ -353,7 +353,7 @@ img {
 }
 .public-orders__order td {
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #141313;
 }
 
 .nav {
@@ -509,7 +509,7 @@ img {
   cursor: pointer;
 }
 .header__btn::before {
-  background-color: #eee;
+  background-color: #141313;
 }
 .header__logo--box {
   position: absolute;
@@ -547,7 +547,7 @@ img {
 }
 
 .eco {
-  background-color: rgb(55, 49, 44);
+  background-color: rgb(245, 244, 244);
 }
 .eco__box {
   display: flex;
@@ -565,11 +565,11 @@ img {
 }
 .eco__title {
   margin-bottom: 0.8em;
-  color: #eee;
+  color: #141313;
 }
 .eco__text {
   font-size: 1.4rem;
-  color: #eee;
+  color: #141313;
 }
 
 .hero-img {
@@ -600,7 +600,7 @@ img {
 }
 
 .actu {
-  background-color: rgb(55, 49, 44);
+  background-color: rgb(245, 244, 244);
 }
 .actu__card {
   position: relative;
@@ -681,7 +681,7 @@ img {
 .actu__card-info-list-item {
   padding: 1em;
   font-size: 1.4rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #141313;
 }
 .actu__card-info-list-item:last-child {
   border-bottom: none;
@@ -708,7 +708,7 @@ img {
 
 .contact {
   position: relative;
-  background-color: #eee;
+  background-color: #141313;
   overflow: hidden;
 }
 .contact__title {
@@ -808,6 +808,7 @@ img {
   .public-orders__title {
     padding: 1.7em 1em 1em 1em;
     font-size: 4rem;
+    color: #fff;
   }
   .public-orders__table th {
     padding: 0.2rem;
@@ -884,7 +885,7 @@ img {
     margin-bottom: 1em;
   }
   .footer__box-list-item a {
-    color: #eee;
+    color: #fff;
     text-decoration: none;
   }
   .public-orders__title {

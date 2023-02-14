@@ -584,6 +584,7 @@ img {
 		&__title {
 			padding: 1.7em 1em 1em 1em;
 			font-size: 4rem;
+			color: $pure-white;
 		}
 
 		&__table {
@@ -685,7 +686,7 @@ img {
 			margin-bottom: 1em;
 
 			a {
-				color: $light-white;
+				color: $pure-white;
 				text-decoration: none;
 			}
 		}
