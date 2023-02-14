@@ -313,6 +313,10 @@ img {
 
 .hero-img {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding: 8em 2em;
 	@include heroImages("../img/Little-river-in-a-forest_About_Project.jpg");
 	text-align: center;
@@ -642,11 +646,9 @@ img {
 	}
 
 	.hero-img {
-		padding: 10em 2em;
+		padding: 3em 2em;
 
 		&__text {
-			margin: 0 auto;
-			width: 70%;
 			padding: 2em;
 			font-size: 2.2rem;
 		}
@@ -769,7 +771,6 @@ img {
 	.hero-img {
 		display: flex;
 		flex-direction: column;
-		// align-items: center;
 		justify-content: center;
 		padding: 40rem 2em;
 
