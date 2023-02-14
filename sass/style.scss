@@ -1,6 +1,6 @@
-@import './colors';
-@import './components';
-@import './mixins';
+@import "./colors";
+@import "./components";
+@import "./mixins";
 
 *,
 *::before,
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	font-family: 'Overpass', sans-serif;
+	font-family: "Overpass", sans-serif;
 	font-size: 1.6rem;
 	background-color: $dark;
 }
@@ -33,7 +33,8 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: $dark-gradient, url(../img/Frozen-morning-in-lake-910764.JPG);
+	background-image: $dark-gradient,
+		url(../img/Frozen-morning-in-lake-910764.JPG);
 	background-size: cover;
 	background-position: center;
 	color: $dark;
@@ -100,7 +101,7 @@ img {
 
 		&::before {
 			position: absolute;
-			content: '';
+			content: "";
 			top: 0;
 			left: 0;
 			width: 3px;
@@ -207,7 +208,7 @@ img {
 	}
 
 	&__heading {
-		font-family: 'Amaranth', sans-serif;
+		font-family: "Amaranth", sans-serif;
 		font-size: 7.6rem;
 		font-weight: 300;
 		text-align: center;
@@ -218,6 +219,7 @@ img {
 		font-size: 2rem;
 		text-align: center;
 		margin-bottom: 2rem;
+		// text-align: justify;
 	}
 	&__btn {
 		background: $pure-white;
@@ -312,7 +314,7 @@ img {
 .hero-img {
 	position: relative;
 	padding: 8em 2em;
-	@include heroImages('../img/Little-river-in-a-forest_About_Project.jpg');
+	@include heroImages("../img/Little-river-in-a-forest_About_Project.jpg");
 	text-align: center;
 	color: $pure-white;
 	overflow: hidden;
@@ -327,6 +329,7 @@ img {
 		font-size: 1.5rem;
 		padding: 1em;
 		max-width: 100%;
+		text-align: justify;
 	}
 }
 
@@ -362,13 +365,15 @@ img {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $dark-gradient, url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
+				background-image: $dark-gradient,
+					url(../img/Tree-trunks-in-the-mountains-1063826.jpg);
 			}
 			&--second {
 				background-image: $dark-gradient, url(../img/A-raised-bog-743322.jpg);
 			}
 			&--third {
-				background-image: $dark-gradient, url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
+				background-image: $dark-gradient,
+					url(../img/Frozen-lake-in-a-winter-forest-1297307.jpg);
 			}
 			&-title {
 				font-size: 2.8rem;
@@ -396,12 +401,14 @@ img {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			gap: 1rem;
 			border-radius: 8px;
 			@include whiteBgGlass;
 			opacity: 0;
 			transition: transform 1s, opacity 1s;
 
 			&-title {
+				min-width: 90%;
 				@include actuCardStyles;
 				top: 1.2em;
 				font-size: 2.8rem;
