@@ -256,8 +256,11 @@
 .actus__title {
   color: #000000;
   text-align: center;
-  margin-top: 1rem;
+  padding: 2rem 0;
   font-size: 4.5rem;
+}
+.actus__subtitle {
+  padding: 2rem;
 }
 .actus__content {
   display: flex;
@@ -265,29 +268,29 @@
   gap: 1rem;
   background-color: #fff;
   max-width: 90vw;
-  padding: 2em;
+  padding: 3em 3.5em;
   border-radius: 8px;
 }
 .actus__content__text {
-  text-align: jus;
+  text-align: justify;
 }
-.actus__content .img {
+.actus__content__text .img {
   width: 100%;
 }
-.actus__content span {
+.actus__content__text span {
   align-self: center;
   font-size: 1rem;
   font-style: italic;
 }
-
 @media (min-width: 768px) {
-  .actus__content {
+  .actus .actus__content {
     max-width: 60vw;
   }
-  .actus__content .img {
+  .actus .actus__content .img {
     width: 100%;
   }
 }
+
 *,
 *::before,
 *::after {
@@ -328,7 +331,7 @@ img {
   justify-content: center;
 }
 .public-orders__title {
-  color: #000000;
+  color: #fff;
   text-align: center;
   padding: 1.7em 1em 1em 1em;
   font-size: 3rem;
@@ -700,12 +703,13 @@ img {
   border: none;
   background-color: #9b9e9d;
   cursor: pointer;
-}
-.actu__card-info-btn::before {
-  background-color: #f3f9f7;
+  color: #f3f9f7;
 }
 .actu__card-info-btn:hover a {
   color: #000000;
+}
+.actu__card-info-btn:hover::before {
+  background-color: #f3f9f7;
 }
 .actu__card-info a {
   transition: all 0.3s;
@@ -899,7 +903,8 @@ img {
     text-decoration: none;
   }
   .public-orders__title {
-    font-size: 6rem;
+    margin-top: 2rem;
+    font-size: 4rem;
   }
   .public-orders__table th {
     padding: 0.6rem;
@@ -981,7 +986,7 @@ img {
     width: 30%;
   }
   .public-orders__title {
-    font-size: 8rem;
+    font-size: 4rem;
   }
   .public-orders__table th {
     padding: 0.6rem;

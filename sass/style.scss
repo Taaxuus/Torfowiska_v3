@@ -46,7 +46,7 @@ img {
 	}
 
 	&__title {
-		color: $light-white;
+		color: $pure-white;
 		text-align: center;
 		padding: 1.7em 1em 1em 1em;
 		font-size: 3rem;
@@ -443,13 +443,14 @@ img {
 				border: none;
 				background-color: $green-color;
 				cursor: pointer;
-
-				&::before {
-					background-color: $green-color-hover;
-				}
+				color: $green-color-hover;
 				&:hover {
 					a {
 						color: $light-white;
+					}
+
+					&::before {
+						background-color: $green-color-hover;
 					}
 				}
 			}
@@ -705,7 +706,8 @@ img {
 
 	.public-orders {
 		&__title {
-			font-size: 6rem;
+			margin-top: 2rem;
+			font-size: 4rem;
 		}
 
 		&__table {
@@ -818,7 +820,7 @@ img {
 
 	.public-orders {
 		&__title {
-			font-size: 8rem;
+			font-size: 4rem;
 		}
 
 		&__table {

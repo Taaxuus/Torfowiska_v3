@@ -21,8 +21,12 @@
 	&__title {
 		color: $light-white;
 		text-align: center;
-		margin-top: 1rem;
+		padding: 2rem 0;
 		font-size: 4.5rem;
+	}
+
+	&__subtitle {
+		padding: 2rem;
 	}
 
 	&__content {
@@ -32,29 +36,29 @@
 		// margin-top: 7em;
 		background-color: $pure-white;
 		max-width: 90vw;
-		padding: 2em;
+		padding: 3em 3.5em;
 		border-radius: 8px;
 		&__text {
-			text-align: jus;
-		}
-		.img {
-			width: 100%;
-		}
-		span {
-			align-self: center;
-			font-size: 1rem;
-			font-style: italic;
-		}
-	}
-}
-
-@media (min-width: 768px) {
-	.actus {
-		&__content {
-			max-width: 60vw;
-
+			text-align: justify;
 			.img {
 				width: 100%;
+			}
+			span {
+				align-self: center;
+				font-size: 1rem;
+				font-style: italic;
+			}
+		}
+	}
+
+	@media (min-width: 768px) {
+		.actus {
+			&__content {
+				max-width: 60vw;
+
+				.img {
+					width: 100%;
+				}
 			}
 		}
 	}
