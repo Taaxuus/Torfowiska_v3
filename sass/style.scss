@@ -250,6 +250,26 @@ img {
 		max-width: 100%;
 		display: flex;
 	}
+	&__logos--box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2em;
+		width: 80%;
+		flex-wrap: wrap;
+
+		.logo__1 {
+			width: 20em;
+		}
+
+		.logo__2 {
+			width: 20em;
+		}
+		.logo__3 {
+			width: 20em;
+			filter: grayscale(100%) brightness(1000%);
+		}
+	}
 
 	&__logo {
 		height: 4em;

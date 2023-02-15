@@ -525,6 +525,24 @@ img {
   max-width: 100%;
   display: flex;
 }
+.header__logos--box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.header__logos--box .logo__1 {
+  width: 20em;
+}
+.header__logos--box .logo__2 {
+  width: 20em;
+}
+.header__logos--box .logo__3 {
+  width: 20em;
+  filter: grayscale(100%) brightness(1000%);
+}
 .header__logo {
   height: 4em;
   width: 4em;
