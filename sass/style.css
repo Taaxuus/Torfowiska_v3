@@ -866,6 +866,9 @@ img {
   background-color: #f3f9f7;
 }
 .actu__card-info a {
+  display: block;
+  height: 100%;
+  width: 100%;
   transition: all 0.3s;
   text-decoration: none;
   color: #fff;

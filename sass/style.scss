@@ -470,6 +470,9 @@ img {
 			}
 
 			a {
+				display: block;
+				height: 100%;
+				width: 100%;
 				transition: all 0.3s;
 				text-decoration: none;
 				color: $pure-white;
