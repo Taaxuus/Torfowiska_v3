@@ -1,0 +1,24 @@
+@import "./colors";
+@import "./components";
+@import "./mixins";
+
+#cookie-consent {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: $pure-white;
+	text-align: center;
+	color: $dark;
+}
+
+#accept-cookies {
+	margin-top: 5px;
+	background-color: #4caf50;
+	color: $pure-white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

@@ -2,6 +2,7 @@
 @import "./components";
 @import "./mixins";
 @import "./actu";
+@import "./cookie";
 
 *,
 *::before,
@@ -209,18 +210,16 @@ img {
 	}
 
 	&__heading {
-		font-family: "Amaranth", sans-serif;
-		font-size: 7.6rem;
-		font-weight: 300;
+		font-size: 4.5rem;
+		font-weight: bold;
 		text-align: center;
 		margin-top: 0.3em;
 		margin-bottom: 2rem;
 	}
 	&__text {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		text-align: center;
 		margin-bottom: 2rem;
-		// text-align: justify;
 	}
 	&__btn {
 		background: $pure-white;
@@ -254,19 +253,14 @@ img {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 2em;
+		gap: 0.2em;
 		width: 80%;
 		flex-wrap: wrap;
 
-		.logo__1 {
-			width: 20em;
-		}
-
-		.logo__2 {
-			width: 20em;
+		img {
+			width: 8.2em;
 		}
 		.logo__3 {
-			width: 20em;
 			filter: grayscale(100%) brightness(1000%);
 		}
 	}
@@ -659,6 +653,13 @@ img {
 			width: 6.5em;
 			height: 6.5em;
 		}
+		&__logos--box {
+			gap: 2em;
+		}
+
+		img {
+			width: 12em;
+		}
 	}
 
 	.eco {
@@ -817,12 +818,15 @@ img {
 	.header {
 		&__heading {
 			font-size: 8rem;
-			// margin-bottom: 1em;
 		}
 
 		&__text {
 			font-size: 2.2rem;
 			max-width: 70%;
+		}
+
+		img {
+			width: 18em;
 		}
 	}
 	.nav {
