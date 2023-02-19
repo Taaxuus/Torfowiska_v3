@@ -114,13 +114,16 @@ const cookieConsent = document.getElementById("cookie-consent");
 const acceptCookiesBtn = document.getElementById("accept-cookies");
 
 acceptCookiesBtn.addEventListener("click", () => {
+	localStorage.setItem("cookiesAccepted", true);
 	cookieConsent.style.display = "none";
+	console.log(localStorage);
 });
-localStorage.setItem("cookiesAccepted", true);
 
-if (!localStorage.getItem("cookiesAccepted")) {
-	cookieConsent.style.display = "block";
+if (localStorage.getItem("cookiesAccepted")) {
+	cookieConsent.style.display = "none";
 }
+
+console.log(localStorage.cookiesAcceèted);
 
 navBtn.addEventListener("click", handleNav);
 handleCurrentYear();
