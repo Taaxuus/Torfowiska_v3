@@ -260,7 +260,7 @@
   font-size: 4.5rem;
 }
 .actus__subtitle {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 .actus__content {
   display: flex;
