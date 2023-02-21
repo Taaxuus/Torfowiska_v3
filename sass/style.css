@@ -614,7 +614,6 @@ img {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  height: 100vh;
   color: #fff;
   background-attachment: scroll;
 }
@@ -631,7 +630,7 @@ img {
   font-size: 4.5rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 0.3em;
+  margin-top: 2em;
   margin-bottom: 2rem;
 }
 .header__text {
@@ -746,7 +745,6 @@ img {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  height: 100vh;
 }
 .hero-img__title {
   font-size: 4.6rem;
@@ -1078,6 +1076,9 @@ img {
   }
 }
 @media (min-width: 992px) {
+  .header {
+    height: 100vh;
+  }
   .nav {
     justify-content: flex-start;
   }
@@ -1113,6 +1114,7 @@ img {
     font-size: 1.8rem;
   }
   .hero-img {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
