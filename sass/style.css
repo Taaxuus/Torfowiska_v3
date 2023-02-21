@@ -614,6 +614,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 1em;
+  height: 100vh;
   color: #fff;
   background-attachment: scroll;
 }
@@ -949,6 +950,9 @@ img {
 }
 
 @media (min-width: 576px) {
+  .header {
+    height: auto;
+  }
   .nav {
     justify-content: flex-start;
   }

@@ -196,7 +196,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	padding: 1em;
-	// height: 100vh;
+	height: 100vh;
 	color: $pure-white;
 	background-attachment: scroll;
 
@@ -576,6 +576,9 @@ img {
 // MEDIA
 // =========================
 @media (min-width: 576px) {
+	.header {
+		height: auto;
+	}
 	.nav {
 		justify-content: flex-start;
 
