@@ -87,6 +87,8 @@
 
 .download-box {
   padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {
@@ -202,6 +204,8 @@
 
 .download-box {
   padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {
@@ -370,6 +374,8 @@
 
 .download-box {
   padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {
