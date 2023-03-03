@@ -76,22 +76,17 @@
 
 .btn-download {
   color: #2e2e2e;
-  font-size: 1rem;
-  align-self: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
 }
 .btn-download:hover {
-  scale: 1.2;
+  scale: 1.06;
 }
 
 .download-box {
   padding: 1.2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 @media (min-width: 576px) {
@@ -196,22 +191,17 @@
 
 .btn-download {
   color: #2e2e2e;
-  font-size: 1rem;
-  align-self: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
 }
 .btn-download:hover {
-  scale: 1.2;
+  scale: 1.06;
 }
 
 .download-box {
   padding: 1.2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 @media (min-width: 576px) {
@@ -369,22 +359,17 @@
 
 .btn-download {
   color: #2e2e2e;
-  font-size: 1rem;
-  align-self: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
 }
 .btn-download:hover {
-  scale: 1.2;
+  scale: 1.06;
 }
 
 .download-box {
   padding: 1.2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 @media (min-width: 576px) {
@@ -462,7 +447,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-morning-in-lake-910764.JPG);
+  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-morning-in-lake-910764.jpg);
   background-size: cover;
   background-position: center;
   color: #2e2e2e;
@@ -492,12 +477,30 @@ img {
   font-weight: bold;
 }
 .public-orders__order {
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: center;
 }
 .public-orders__order td {
   text-align: center;
   border-bottom: 1px solid #000000;
+}
+.public-orders__order .download-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.public-orders__order .download-box a {
+  text-decoration: none;
+  align-self: flex-start;
+}
+.public-orders__order .download-box i {
+  margin-right: 1rem;
+}
+.public-orders__order .download-box td {
+  text-align: left;
 }
 
 .nav {
@@ -1158,11 +1161,21 @@ img {
     width: 30%;
   }
   .public-orders__title {
-    font-size: 4rem;
+    font-size: 6rem;
+  }
+  .public-orders__table {
+    padding: 3em;
   }
   .public-orders__table th {
     padding: 0.6rem;
-    font-size: 1.7rem;
+    font-size: 3rem;
+  }
+  .public-orders__table td {
+    font-size: 1.3em;
+    padding: 0.2em;
+  }
+  .public-orders__table td .btn-download {
+    font-size: 0.8em;
   }
   .public-orders__order {
     font-size: 1.4rem;

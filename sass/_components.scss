@@ -80,23 +80,23 @@
 
 .btn-download {
 	color: $dark;
-	font-size: 1rem;
-	align-self: center;
+	// font-size: 1rem;
+	// align-self: left;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
 	transition: all 0.3s;
 
 	&:hover {
-		scale: 1.2;
+		scale: 1.06;
 	}
 }
 
 .download-box {
 	padding: 1.2rem 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	// display: flex;
+	// align-items: center;
+	// justify-content: space-around;
 }
 
 @media (min-width: 576px) {
