@@ -80,22 +80,29 @@
 
 .btn-download {
 	color: $dark;
-	// font-size: 1rem;
-	// align-self: left;
+	text-align: left;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
 	transition: all 0.3s;
-
+	text-decoration: none;
+	font-size: 1rem;
+	i {
+		margin-right: 5px;
+	}
 	&:hover {
 		scale: 1.06;
 	}
 }
 
-.download-box {
+.download-box--box {
+	width: 100%;
 	padding: 1.2rem 0;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1rem;
 }
 
 @media (min-width: 576px) {

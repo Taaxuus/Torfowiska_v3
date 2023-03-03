@@ -76,19 +76,29 @@
 
 .btn-download {
   color: #2e2e2e;
+  text-align: left;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.btn-download i {
+  margin-right: 5px;
 }
 .btn-download:hover {
   scale: 1.06;
 }
 
-.download-box {
+.download-box--box {
+  width: 100%;
   padding: 1.2rem 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -193,19 +203,29 @@
 
 .btn-download {
   color: #2e2e2e;
+  text-align: left;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.btn-download i {
+  margin-right: 5px;
 }
 .btn-download:hover {
   scale: 1.06;
 }
 
-.download-box {
+.download-box--box {
+  width: 100%;
   padding: 1.2rem 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -363,19 +383,29 @@
 
 .btn-download {
   color: #2e2e2e;
+  text-align: left;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.btn-download i {
+  margin-right: 5px;
 }
 .btn-download:hover {
   scale: 1.06;
 }
 
-.download-box {
+.download-box--box {
+  width: 100%;
   padding: 1.2rem 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -478,7 +508,7 @@ img {
 }
 .public-orders__table th {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 1.8rem;
   border-bottom: 1px solid #000000;
   font-weight: bold;
 }
@@ -487,26 +517,8 @@ img {
   text-align: center;
 }
 .public-orders__order td {
-  text-align: center;
+  font-size: 2rem;
   border-bottom: 1px solid #000000;
-}
-.public-orders__order .download-box {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  flex-direction: column;
-  gap: 10px;
-}
-.public-orders__order .download-box a {
-  text-decoration: none;
-  align-self: flex-start;
-}
-.public-orders__order .download-box i {
-  margin-right: 1rem;
-}
-.public-orders__order .download-box td {
-  text-align: left;
 }
 
 .nav {
@@ -994,7 +1006,7 @@ img {
   }
   .public-orders__table th {
     padding: 0.2rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   .public-orders__order {
     font-size: 1.2rem;
@@ -1175,13 +1187,6 @@ img {
   .public-orders__table th {
     padding: 0.6rem;
     font-size: 3rem;
-  }
-  .public-orders__table td {
-    font-size: 1.3em;
-    padding: 0.2em;
-  }
-  .public-orders__table td .btn-download {
-    font-size: 0.8em;
   }
   .public-orders__order {
     font-size: 1.4rem;
