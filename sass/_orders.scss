@@ -23,13 +23,15 @@
 	&__title {
 		color: $pure-white;
 		text-align: center;
-		padding: 1.7em 1em 1em 1em;
-		font-size: 3rem;
+		padding: 2em 1em 1em 1em;
+		font-size: 4rem;
 	}
 
 	&__table {
-		padding: 0.3em;
+		width: 80vw;
+		padding: 0.4em;
 		background-color: #fff;
+		border-radius: 16px;
 		th {
 			text-align: center;
 			font-size: 1.8rem;
@@ -39,10 +41,10 @@
 	}
 
 	&__order {
-		font-size: 1rem;
-		text-align: center;
+		text-align: justify;
 		td {
-			font-size: 2rem;
+			padding: 0.3em;
+			font-size: 1.4rem;
 			border-bottom: 1px solid $light-white;
 		}
 	}
@@ -50,9 +52,39 @@
 	.ul-list {
 		list-style: none;
 		li {
+			padding: 0.3em;
 			text-align: left;
 			a {
+				font-size: 1.3rem;
 				margin-right: 0.5rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.public-orders {
+		&__title {
+			font-size: 3em;
+		}
+
+		&__table {
+			th {
+				font-size: 2.4rem;
+			}
+		}
+
+		&__order {
+			td {
+				font-size: 2rem;
+			}
+		}
+
+		.ul-list {
+			li {
+				a {
+					font-size: 2rem;
+				}
 			}
 		}
 	}
