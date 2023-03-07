@@ -9,11 +9,22 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: $dark-gradient,
-		url(../img/Frozen-morning-in-lake-910764.jpg);
+	background-image: $dark-gradient, url(../img/Frozen-bamboo-island-898648.png);
 	background-size: cover;
 	background-position: center;
 	color: $dark;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.5;
+		z-index: 0;
+	}
 
 	.wrapper {
 		display: flex;
@@ -21,6 +32,7 @@
 	}
 
 	&__title {
+		z-index: 1;
 		color: $pure-white;
 		text-align: center;
 		padding: 2em 1em 1em 1em;
@@ -28,6 +40,7 @@
 	}
 
 	&__table {
+		z-index: 1;
 		width: 80vw;
 		padding: 0.4em;
 		background-color: #fff;
