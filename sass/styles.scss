@@ -489,7 +489,10 @@ img {
 		}
 	}
 	&__box-desktop {
-		display: none;
+		a {
+			text-decoration: none;
+			color: $pure-white;
+		}
 	}
 
 	&__box-title {

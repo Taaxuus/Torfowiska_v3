@@ -421,7 +421,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(45deg, rgba(7, 7, 7, 0.331), rgba(22, 21, 21, 0.457)), url(../img/Frozen-bamboo-island-898648.png);
+  background-image: url(../img/Frozen-bamboo-island-898648.png);
   background-size: cover;
   background-position: center;
   color: #2e2e2e;
@@ -1073,8 +1073,9 @@ img {
 .footer__box-list-item {
   margin-bottom: 1em;
 }
-.footer__box-desktop {
-  display: none;
+.footer__box-desktop a {
+  text-decoration: none;
+  color: #fff;
 }
 .footer__box-title {
   margin-bottom: 1em;
@@ -1330,4 +1331,4 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=styles.css.map */
