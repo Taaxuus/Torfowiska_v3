@@ -475,6 +475,10 @@
 .public-orders .ul-list li {
   padding: 0.3em;
   text-align: left;
+  transition: all 0.3s;
+}
+.public-orders .ul-list li:hover {
+  scale: 1.07;
 }
 .public-orders .ul-list li a {
   font-size: 1.3rem;

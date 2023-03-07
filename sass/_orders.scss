@@ -67,6 +67,11 @@
 		li {
 			padding: 0.3em;
 			text-align: left;
+			transition: all 0.3s;
+
+			&:hover {
+				scale: 1.07;
+			}
 			a {
 				font-size: 1.3rem;
 				margin-right: 0.5rem;
